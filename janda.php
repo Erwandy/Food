@@ -99,7 +99,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         echo "\n".color("blue","# SEGER BANGET ");
         for($a=1;$a<=3;$a++){
         echo color("purple",".");
-        sleep(40);
+        sleep(30);
         }
        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
